@@ -1,0 +1,80 @@
+2019-10-18 12:41:55,226 INFO Running Dynamite on http://localhost:3000
+2019-10-18 12:41:55,384 ERROR Request GET - http://localhost:3000/v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 with data - {} ,FAILED and returned status_code 500
+2019-10-18 12:41:55,385 ERROR string indices must be integers: Blip API call has failed
+2019-10-18 12:51:26,977 INFO Running Dynamite on http://localhost:3000
+2019-10-18 12:51:27,112 ERROR Request GET - http://localhost:3000/v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 with data - {} ,FAILED and returned status_code 500
+2019-10-18 12:51:27,112 ERROR string indices must be integers: Blip API call has failed
+2019-10-18 13:00:01,938 INFO Running Dynamite on http://localhost:3000
+2019-10-18 13:00:01,995 ERROR Request GET - http://localhost:3000/v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 with data - {} ,FAILED and returned status_code 401
+2019-10-18 13:00:01,995 ERROR string indices must be integers: Blip API call has failed
+2019-10-18 13:26:36,187 INFO Running Dynamite on http://localhost:3000
+2019-10-18 13:26:45,796 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-18 13:30:42,719 INFO Running Dynamite on http://localhost:3000
+2019-10-18 13:30:53,400 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-18 13:38:17,069 INFO Running Dynamite on http://localhost:3000
+2019-10-18 13:38:26,725 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-18 14:00:01,597 INFO Running Dynamite on http://localhost:3000
+2019-10-18 14:00:10,025 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-18 15:00:01,383 INFO Running Dynamite on http://localhost:3000
+2019-10-18 15:00:10,723 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-18 16:00:06,146 INFO Running Dynamite on http://localhost:3000
+2019-10-18 16:00:18,949 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-18 17:00:06,072 INFO Running Dynamite on http://localhost:3000
+2019-10-18 17:18:14,814 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 12:00:05,128 INFO Running Dynamite on http://localhost:3000
+2019-10-21 12:00:19,481 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 13:00:04,583 INFO Running Dynamite on http://localhost:3000
+2019-10-21 13:00:19,288 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 14:00:02,347 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:00:21,286 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 14:26:15,926 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:26:15,929 ERROR Exception in API Call GET - http://localhost:3000/v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 with data - {}
+2019-10-21 14:26:15,929 ERROR HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f00a8897588>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-10-21 14:26:15,929 ERROR string indices must be integers: Blip API call has failed
+2019-10-21 14:30:06,733 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:30:06,869 ERROR Request GET - http://localhost:3000/v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 with data - {} ,FAILED and returned status_code 401
+2019-10-21 14:30:06,870 ERROR string indices must be integers: Blip API call has failed
+2019-10-21 14:32:11,006 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:32:21,570 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 14:40:29,558 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:41:19,471 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:41:29,288 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 14:44:48,111 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:44:57,922 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 14:47:08,228 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:47:18,584 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 14:48:29,028 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:48:39,200 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 14:49:33,590 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:49:43,429 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 14:51:03,464 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:51:13,629 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 14:51:31,589 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:51:41,742 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 14:52:03,183 INFO Running Dynamite on http://localhost:3000
+2019-10-21 14:52:13,057 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-10-21 16:17:26,096 INFO Running Dynamite on http://localhost:3000
+2019-10-21 16:17:26,119 ERROR Request GET - http://localhost:3000/v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 with data - {} ,FAILED and returned status_code 401
+2019-10-21 16:17:26,119 ERROR string indices must be integers: Blip API call has failed
+2019-10-21 16:28:22,204 INFO Running Dynamite on http://localhost:3000
+2019-10-21 16:28:32,240 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-12-19 11:39:56,897 INFO Running Dynamite on http://localhost:3000
+2019-12-19 11:39:56,908 ERROR Exception in API Call GET - http://localhost:3000/v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 with data - {}
+2019-12-19 11:39:56,908 ERROR HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f735e96c290>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2019-12-19 11:39:56,908 ERROR string indices must be integers: Blip API call has failed
+2019-12-19 11:41:15,432 INFO Running Dynamite on http://localhost:3000
+2019-12-19 11:41:15,435 ERROR Exception in API Call GET - http://localhost:3000/v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 with data - {}
+2019-12-19 11:41:15,436 ERROR HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /v1/api/accounts/2?auth_token=csq_u_6MJgG4tsVngGdz&account_id=2&info=s3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99296bd790>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2019-12-19 11:41:15,436 ERROR string indices must be integers: Blip API call has failed
+2019-12-19 11:41:18,405 INFO Running Dynamite on http://localhost:3000
+2019-12-19 11:41:30,298 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-12-19 12:00:01,767 INFO Running Dynamite on http://localhost:3000
+2019-12-19 12:00:11,484 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-12-19 12:01:38,382 INFO Running Dynamite on http://localhost:3000
+2019-12-19 12:01:48,794 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-12-19 12:12:29,119 INFO Running Dynamite on http://localhost:3000
+2019-12-19 12:12:38,276 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-12-19 12:17:44,138 INFO Running Dynamite on http://localhost:3000
+2019-12-19 12:17:53,211 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
+2019-12-19 17:49:56,736 INFO Running Dynamite on http://localhost:3000
+2019-12-19 17:50:06,359 INFO  Mailer#send_alert Mail sent to girish.mallya@amagi.com
