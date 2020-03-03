@@ -1,0 +1,20 @@
+PATH=/bin:/usr/bin
+case $# in
+0)echo 'Usage: watchfor person' 1>&2;exit 1
+esac
+
+current_user=0
+until test $current_user -eq 1
+do
+  for i in $@
+  do
+    if who | grep "$i"
+    then
+      current_user=1
+    fi
+  done
+  if test $current_user -eq 0
+  then
+    sleep 60
+  fi
+done
