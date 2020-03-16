@@ -1,0 +1,15 @@
+PATH=/bin:/usr/bin
+new=/tmp/wwho1.$$
+old=/tmp/wwho2.$$
+>$old
+
+while :
+do
+	who >$new
+	comm $old $new
+	mv $new $old
+	sleep 60
+done | awk 'BEGIn{FS="\t"}
+       $1!="" {print "out: %s\n", $1}
+       $2!="" {print "in : %s\n", $2}'
+

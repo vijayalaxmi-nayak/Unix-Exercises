@@ -1,0 +1,19 @@
+opath=$PATH
+PATH=/bin:/usr/bin
+
+case $# in
+0) echo 'Usage: which command' 1>&2;exit 2
+esac
+for i in `echo $opath | sed 's/^:/.:/
+			s/::/:.:/g
+			s/:$/:./
+			s/:/ /g'`
+do
+	if test -f $i/$1
+	then
+		echo $i/$1
+		echo `ls -l $i/$1 | awk '{print $1}'`		
+		exit 0
+	fi
+done
+exit 1

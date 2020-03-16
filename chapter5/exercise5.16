@@ -1,0 +1,18 @@
+users=`awk -F: '{if ($3>=1000 && $3<=60000) print $0}' /etc/passwd`
+current_user=$UID
+flag=0
+for i in $users
+do
+  user_id=`echo $i | cut -d ":" -f 3`
+  if [ $user_id -ne $current_user ]
+  then
+    user_name=`echo $i | cut -d ":" -f 1`
+    echo "Next user is $user_name with uid $user_id"
+    flag=1
+    break
+  fi 
+done
+if [ $flag -eq 0 ]
+then
+  echo "No next available user-id found"
+fi
