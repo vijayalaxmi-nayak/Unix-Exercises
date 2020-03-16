@@ -10,9 +10,9 @@ void main()
     else if (c == '\t')
       printf("\\t");
     else if (c == '\r')
-      printf("\\r")
+      printf("\\r");
     else if (c == '\\')
-      printf("\\\\")
+      printf("\\\\");
     else if (isascii(c))
       putchar(c);
     else
